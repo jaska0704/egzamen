@@ -3,12 +3,13 @@ const baceUrl1 = "http://localhost:3000/card3";
 let barCard = document.querySelector(".bar_card");
 let category = document.querySelector(".category");
 let productCards = document.querySelector(".product-cards");
-let input = document.querySelector("input");
+let input1 = document.querySelector(".input1");
+let input2 = document.querySelector(".input2");
 let cart_number = document.querySelector(".cart_number");
 let btnCard = document.querySelector("#btnCard");
 let sum = 0;
 
-localStorage.getItem("sum");
+// localStorage.getItem("sum");
 let massivData = [];
 
 const getAllCategory = async () => {
@@ -140,8 +141,7 @@ category.addEventListener("click", (e) => {
   }
 });
 
-input.addEventListener("keyup", (e) => {
-  console.log(e.target.value);
+input1.addEventListener("keyup", (e) => {
   const searchText = e.target.value.toLowerCase();
   const filteredData = massivData.filter((item) =>
     item.title.toLowerCase().includes(searchText)
@@ -149,7 +149,51 @@ input.addEventListener("keyup", (e) => {
 
   productCards.innerHTML = filteredData
     .map((item) => {
-      `<div class="product-card bg-white mt-10 w-[90%] rounded-lg text-center">
+      console.log(item);
+      
+     return `<div class="product-card bg-white mt-10 w-[90%] rounded-lg text-center">
+                <img class="w-[90%] h-[250px] ml-3 hover:opacity-5 pt-2" src=${
+                  item.img
+                }>
+                <p class="text-lg font-bold leading-7 text-[#223263]">${
+                  item.title
+                }</p>
+                <img class="inline-block" src="/images/rate.png" alt="">
+                <div class="flex justify-evenly items-center">
+                    <div>
+                        <button data-card  class="bg-green-300 w-6 rounded"><i data-card class="fa-solid fa-cart-shopping" style="color: red;"></i></button>
+                    </div>
+                    <div>
+                        <span>$${item.price}</span>
+                        <span class="text-[#9098B1] line-through leading-[21px] text-sm font-normal">$${
+                          item.price * 0.25 + item.price
+                        }<span>
+                        <p class="text-[#FB7181] font-bold text-sm">24%Off</p></a>
+                    </div>
+                    <div>
+                        <a href="http://127.0.0.1:5500/pages/card.html?idd=${
+                          massivData.id
+                        }?id=${
+        item?.id
+      }"><button class="btnCard  bg-green-300 w-6 rounded"><i class="fa-solid fa-info" style="color: red;"></i></button></a>
+                    </div>
+                </div>
+            </div>`;
+    })
+    .join("");
+});
+input2.addEventListener("keyup", (e) => {
+  const searchText = e.target.value.toLowerCase();
+  const filteredData = massivData.filter((item) =>
+    item.title.toLowerCase().includes(searchText)
+  );
+  console.log(filteredData);
+
+  productCards.innerHTML = filteredData
+    .map((item) => {
+      console.log(item);
+      
+     return `<div class="product-card bg-white mt-10 w-[90%] rounded-lg text-center">
                 <img class="w-[90%] h-[250px] ml-3 hover:opacity-5 pt-2" src=${
                   item.img
                 }>
