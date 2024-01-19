@@ -1,0 +1,324 @@
+{
+  "products":[
+   {
+     "id":"1",
+     "category": "All",
+     "product":[
+       {
+         "id": "1",
+         "title": "Fjallraven",
+         "img":  "https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg",
+         "price": 299.43,
+         "sum": 534.33,
+         "cheg": "24% off"
+       },
+       {
+         "id": "2",
+         "title": "Backpack",
+         "img": "https://fakestoreapi.com/img/71-3HjGNDUL._AC_SY879._SX._UX._SY._UY_.jpg",
+         "price": 299.43,
+         "sum": 534.33,
+         "cheg": "24% off"
+       },
+       {
+         "id": "3",
+         "title": "Foldsack No",
+         "img": "https://fakestoreapi.com/img/71li-ujtlUL._AC_UX679_.jpg",
+         "price": 299.43,
+         "sum": 534.33,
+         "cheg": "24% off"
+       },
+       {
+         "id": "4",
+         "title": "Mens Casual",
+         "img": "https://fakestoreapi.com/img/71YXzeOuslL._AC_UY879_.jpg",
+         "price": 299.43,
+         "sum": 534.33,
+         "cheg": "24% off"
+       },
+        {
+         "id":"5",
+         "title":"Slim-fitting",
+         "img":"https://fakestoreapi.com/img/61sbMiUnoGL._AC_UL640_QL65_ML3_.jpg",
+         "price": 299.43,
+         "sum":534.33,
+         "cheg":"24% off"
+ 
+       },
+       {
+         "id": "6",
+         "title": "Mens Cotton",
+         "img": "https://fakestoreapi.com/img/71pWzhdJNwL._AC_UL640_QL65_ML3_.jpg",
+         "price": 299.43,
+         "sum": 534.33,
+         "cheg": "24% off"
+       },
+       {
+         "id": "7",
+         "title": "Jacket",
+         "img": "https://fakestoreapi.com/img/71YAIFU48IL._AC_UL640_QL65_ML3_.jpg",
+         "price": 299.43,
+         "sum": 534.33,
+         "cheg": "24% off"
+       },
+       {
+         "id": "8",
+         "title": "Slim Fit",
+         "img": "https://fakestoreapi.com/img/51UDEzMJVpL._AC_UL640_QL65_ML3_.jpg",
+         "price": 299.43,
+         "sum": 534.33,
+         "cheg": "24% off"
+       }
+     ]
+   },
+   {
+     "id":"2",
+     "category": "Bags",
+     "product":[
+       {
+         "id":"1",
+         "title":"John Hardy",
+         "img":"https://fakestoreapi.com/img/61IBBVJvSDL._AC_SY879_.jpg",
+         "price": 299.43,
+         "sum":534.33,
+         "cheg":"24% off"
+ 
+       },
+       {
+         "id":"2",
+         "title":"Solid Gold ",
+         "img":"https://fakestoreapi.com/img/61U7T1koQqL._AC_SX679_.jpg",
+         "price": 299.43,
+         "sum":534.33,
+         "cheg":"24% off"
+ 
+       },
+       {
+         "id":"3",
+         "title":"White Gold",
+         "img":"https://fakestoreapi.com/img/71kWymZ+c+L._AC_SX679_.jpg",
+         "price": 299.43,
+         "sum":534.33,
+         "cheg":"24% off"
+ 
+       },
+       {
+         "id":"4",
+         "title":"Classic Created",
+         "img":"https://fakestoreapi.com/img/61mtL65D4cL._AC_SX679_.jpg",
+         "price": 299.43,
+         "sum":534.33,
+         "cheg":"24% off"
+ 
+       },
+       {
+         "id":"5",
+         "title":"Anniversary",
+         "img":"https://fakestoreapi.com/img/81QpkIctqPL._AC_SX679_.jpg",
+         "price": 299.43,
+         "sum":534.33,
+         "cheg":"24% off"
+ 
+       }
+     ]
+   },
+   {
+     "id":"3",
+     "category": "Sneakers",
+     "product":[
+       {
+         "id":"1",
+         "title":"Anniversary vyu",
+         "img":"https://fakestoreapi.com/img/81Zt42ioCgL._AC_SX679_.jpg",
+         "price": 299.43,
+         "sum":534.33,
+         "cheg":"24% off"
+ 
+       },
+       {
+         "id":"2",
+         "title":"Owl Rose Gold",
+         "img":"https://fakestoreapi.com/img/51Y5NI-I5jL._AC_UX679_.jpg",
+         "price": 299.43,
+         "sum":534.33,
+         "cheg":"24% off"
+ 
+       },
+       {
+         "id":"3",
+         "title":"WD 2TB Elements",
+         "img":"https://fakestoreapi.com/img/81XH0e8fefL._AC_UY879_.jpg",
+         "price": 299.43,
+         "sum":534.33,
+         "cheg":"24% off"
+ 
+       },
+       {
+         "id":"4",
+         "title":"SanDisk SSD",
+         "img":"https://fakestoreapi.com/img/71HblAHs5xL._AC_UY879_-2.jpg",
+         "price": 299.43,
+         "sum":534.33,
+         "cheg":"24% off"
+ 
+       },
+       {
+         "id":"5",
+         "title":"Easy upgrade",
+         "img":"https://fakestoreapi.com/img/71z3kpMAYsL._AC_UY879_.jpg",
+         "price": 299.43,
+         "sum":534.33,
+         "cheg":"24% off"
+ 
+       }
+     ]
+   },
+   {
+     "id":"4",
+     "category": " Belt",
+     "product":[
+       {
+         "id":"1",
+         "title":"The perfect",
+         "img":"https://fakestoreapi.com/img/51eg55uWmdL._AC_UX679_.jpg",
+         "price": 299.43,
+         "sum":534.33,
+         "cheg":"24% off"
+ 
+       },
+       {
+         "id":"2",
+         "title":"PC workloads",
+         "img":"https://fakestoreapi.com/img/61pHAEJ4NML._AC_UX679_.jpg",
+         "price": 299.43,
+         "sum":534.33,
+         "cheg":"24% off"
+ 
+       },
+       {
+         "id":"3",
+         "title":"Silicon Power",
+         "img":"https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg",
+         "price": 299.43,
+         "sum":534.33,
+         "cheg":"24% off"
+ 
+       },
+       {
+         "id":"4",
+         "title":"Cache Performance",
+         "img": "https://fakestoreapi.com/img/71-3HjGNDUL._AC_SY879._SX._UX._SY._UY_.jpg",
+         "price": 299.43,
+         "sum":534.33,
+         "cheg":"24% off"
+ 
+       },
+       {
+         "id":"5",
+         "title":"3D NAND",
+         "img":"https://fakestoreapi.com/img/71li-ujtlUL._AC_UX679_.jpg",
+         "price": 299.43,
+         "sum":534.33,
+         "cheg":"24% off"
+ 
+       }
+     ]
+   },
+   {
+     "id":"5",
+     "category": "Sunglasses",
+     "product":[
+       {
+         "id":"1",
+         "title":"WD 4TB Gaming",
+         "img":"https://fakestoreapi.com/img/71YXzeOuslL._AC_UY879_.jpg",
+         "price": 299.43,
+         "sum":534.33,
+         "cheg":"24% off"
+ 
+       },
+       {
+         "id":"2",
+         "title":"Drive Works",
+         "img":"https://fakestoreapi.com/img/71pWzhdJNwL._AC_UL640_QL65_ML3_.jpg",
+         "price": 299.43,
+         "sum":534.33,
+         "cheg":"24% off"
+ 
+       },
+       {
+         "id":"3",
+         "title":"Playstation 4",
+         "img":"https://fakestoreapi.com/img/61sbMiUnoGL._AC_UL640_QL65_ML3_.jpg",
+         "price": 299.43,
+         "sum":534.33,
+         "cheg":"24% off"
+ 
+       },
+       {
+         "id":"4",
+         "title":"Acer SB220Q",
+         "img":"https://fakestoreapi.com/img/71YAIFU48IL._AC_UL640_QL65_ML3_.jpg",
+         "price": 299.43,
+         "sum":534.33,
+         "cheg":"24% off"
+ 
+       },
+       {
+         "id":"5",
+         "title":"VESA Mount Refresh",
+         "img":"https://fakestoreapi.com/img/51UDEzMJVpL._AC_UL640_QL65_ML3_.jpg",
+         "price": 299.43,
+         "sum":534.33,
+         "cheg":"24% off"
+ 
+       },
+       {
+         "id":"6",
+         "title":"IPS panel Aspect",
+         "img":"https://fakestoreapi.com/img/61IBBVJvSDL._AC_SY879_.jpg",
+         "price": 299.43,
+         "sum":534.33,
+         "cheg":"24% off"
+ 
+       },
+       {
+         "id":"7",
+         "title":"Samsung React",
+         "img":"https://fakestoreapi.com/img/61U7T1koQqL._AC_SX679_.jpg",
+         "price": 299.43,
+         "sum":534.33,
+         "cheg":"24% off"
+ 
+       }
+     ]
+   }
+ ],
+  "card3":[
+    {
+      "id": "4",
+      "title": "Mens Casual",
+      "img": "https://fakestoreapi.com/img/71YXzeOuslL._AC_UY879_.jpg",
+      "price": 299.43,
+      "sum": 534.33,
+      "cheg": "24% off"
+    },
+    {
+      "id": "5",
+      "title": "Slim-fitting",
+      "img": "https://fakestoreapi.com/img/61sbMiUnoGL._AC_UL640_QL65_ML3_.jpg",
+      "price": 299.43,
+      "sum": 534.33,
+      "cheg": "24% off"
+    },
+    {
+      "id": "6",
+      "title": "Mens Cotton",
+      "img": "https://fakestoreapi.com/img/71pWzhdJNwL._AC_UL640_QL65_ML3_.jpg",
+      "price": 299.43,
+      "sum": 534.33,
+      "cheg": "24% off"
+    }
+  ]
+ }
+ 

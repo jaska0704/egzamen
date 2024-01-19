@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="/styles/css/minified/main.min.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <form class="form1 sm:flex sm:justify-evenly md:hidden ">
+        <input
+          type="search"
+          placeholder="Search"
+          class="px-2 w-[50%] py-2 rounded-md border-2 text-gray-900 ring-1 ring-inset ring-gray-300 focus:ring-indigo-600"
+        />
+        <div class="flex gap-4">
+            <i class="fa-regular fa-heart fa-2x"></i>
+            <i class="fa-regular fa-bell fa-2x"></i>
+        </div>
+      </form>
+      <div class="header_block1 container1 sm:hidden md:flex justify-between py-5">
+        <div>
+          <select name="lang" id="lang" class="rounded-lg p-1">
+            <option value="en">EN</option>
+            <option value="ru">RU</option>
+            <option value="uz">UZ</option>
+          </select>
+          <select name="money" id="money" class="rounded-lg p-1">
+            <option value="usd">USD</option>
+            <option value="rubl">RUBL</option>
+            <option value="sum">SUM</option>
+          </select>
+        </div>
+        <div class="flex justify-between gap-8 relative">
+          <a href="#"><i class="fa-regular fa-user"></i>My profile</a>
+          <a href="#"><i class="fa-solid fa-cart-arrow-down"></i>Items</a>
+          <span
+            class="cart_number absolute right-8 -top-3 w-5 h-5 bg-red-600 rounded-[10px] text-center text-white text-sm"
+            >0</span
+          >
+        </div>
+      </div>
+      <div
+        class="header_block2 container1 sm:hidden md:flex justify-between items-center pb-8"
+      >
+        <a class="flex items-center gap-3" href="#"
+          ><img src="/images/Icon.png" alt="" />E-Comm</a
+        >
+        <div class="flex justify-between items-center gap-16">
+          <a class="font-medium text-blue-600" href="#">HOME</a>
+          <a class="font-medium hover:text-blue-600" href="#">BAGS</a>
+          <a class="font-medium hover:text-blue-600" href="#">SNEAKERS</a>
+          <a class="font-medium hover:text-blue-600" href="#">BELT</a>
+          <a class="font-medium hover:text-blue-600" href="#">CONTACT</a>
+        </div>
+      </div>
+    </header>
+
+    <section class="bar">
+        <section class="slide-show">
+        <div class="slider container1 rounded-xl md:w-[80%] md:h-[100%] overflow-hidden">
+            <div class="slides sm:w-[820%] md:w-[300%] h-[100%] flex">
+                <input class="hidden" type="radio" name="radio-btn" id="radio1">
+                <input class="hidden" type="radio" name="radio-btn" id="radio2">
+                <input class="hidden" type="radio" name="radio-btn" id="radio3">
+
+                <div class="slide first bg-[#00776E] md:w-[80%]">
+                    <div class="container1 relative">
+                        <img class="" src="/images/Promotion_Image.png" alt="" />
+                        <div class="sm:w-[309px] sm:top-10 md:w-[573px] absolute md:top-34 left-16">
+                            <h1 class="title-bar sm:text-[42px] sm:leading-1 md:text-[64px] md:font-bold md:leading-[96px] text-white absolute">
+                            Super Flash Sale 50% Off
+                            </h1>
+                        </div>
+                    </div>
+                </div>
+                <div class="slide bg-[#26507F] md:w-[80%]">
+                    <div class="container1 relative">
+                        <img class="" src="/images/Promotion_Image.png" alt="" />
+                        <div class="sm:w-[309px] sm:top-10 md:w-[573px] absolute md:top-44 left-16">
+                            <h1 class="title-bar sm:text-[42px] sm:leading-1 md:text-[64px] md:font-bold md:leading-[96px] text-white absolute">
+                            Super Flash Sale 50% Off
+                            </h1>
+                        </div>
+                    </div>
+                </div>
+                <div class="slide bg-[#CEB096] md:w-[80%]">
+                   <div class="container1 relative">
+                        <img class="" src="/images/Promotion_Image.png" alt="" />
+                        <div class="sm:w-[309px] sm:top-10 md:w-[573px] absolute md:top-44 left-16">
+                            <h1 class="title-bar sm:text-[42px] sm:leading-1 md:text-[64px] md:font-bold md:leading-[96px] text-white absolute">
+                            Super Flash Sale 50% Off
+                            </h1>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="navigation-auto">
+                    
+                </div>
+            </div>
+            <div class="navigation-manual">
+                <label for="radio1" class="manual-btn"></label>
+                <label for="radio2" class="manual-btn"></label>
+                <label for="radio3" class="manual-btn"></label>
+            </div>
+        </div>
+        </section>
+      
+      <div class="bar_card container1 w-[80%] text-center flex justify-center absolute top-[75%] left-[10.5%]"
+      ></div>
+    </section>
+
+    <section class="products container1 sm:mt-6 xl:mt-[320px] text-center relativ">
+      <form class="">
+        <input
+          type="search"
+          placeholder="Search"
+          class="w-[50%] sm:hidden md:inline-block px-2 py-2 rounded-md border-2 text-gray-900 ring-1 ring-inset ring-gray-300 focus:ring-indigo-600"
+        />
+      </form>
+      <h1 class="text-4xl font-semibold round sm:hidden md:inline-block">BEST SELLER</h1>
+      <div class="md:flex md:justify-center md:items-end md:gap-10">
+        <div class="flex justify-center gap-16 md:hidden">
+            <img class="w-[80px] p-5 bg-slate-100 rounded-full" src="/images/svg1.svg" alt="svg.icon">
+            <img class="w-[80px] p-5 bg-slate-100 rounded-full" src="/images/svg2.svg" alt="svg.icon">
+            <img class="w-[80px] p-5 bg-slate-100 rounded-full" src="/images/svg3.svg" alt="svg.icon">
+            <img class="w-[80px] p-5 bg-slate-100 rounded-full" src="/images/svg4.svg" alt="svg.icon">
+        </div>
+        <div class="category flex justify-center gap-10 mt-8">
+
+        </div>
+      </div>
+      <div class="rounded-lg product-cards grid sm:grid-cols-2 md:grid-cols-4 gap-4 mt-7"></div>
+    </section>
+
+    <section class="shipping flex justify-evenly my-[110px]">
+      <div>
+        <img src="/images/shipping.png" alt="icon" />
+        <h4>FREE SHIPPING</h4>
+      </div>
+      <div>
+        <img src="/images/refund.png" alt="icon" />
+        <h4>100% REFUND</h4>
+      </div>
+      <div>
+        <img src="/images/support.png" alt="icon" />
+        <h4>SUPPORT 24/7</h4>
+      </div>
+    </section>
+
+    <footer class="bg-[#BCDDFE;]">
+      <div class="py-[120px] flex justify-evenly">
+        <div class="">
+          <a class="flex items-center gap-3 text-lg font-bold" href="#"
+            ><img src="/images/Icon.png" alt="" />E-Comm</a
+          >
+          <p class="inline-block w-[220px] text-xs font-normal">
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has been the industry's standard dummy text
+            ever.Since the 1500s, when an unknown printer.
+          </p>
+        </div>
+        <div>
+          <h4>Follow Us</h4>
+          <p class="inline-block w-[220px] text-xs font-normal">
+            Since the 1500s, when an unknown printer took a galley of type and
+            scrambled.
+          </p>
+        </div>
+        <div>
+          <h4>Contact Us</h4>
+          <p class="inline-block w-[220px] text-xs font-normal">
+            E-Comm , 4578 Marmora Road, Glasgow D04 89GR
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <script type="module" src="./Js/main.js"></script>
+  </body>
+</html>
