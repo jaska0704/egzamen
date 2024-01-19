@@ -20,14 +20,16 @@
         <input
           type="search"
           placeholder="Search"
-          class="px-2 w-[50%] py-2 rounded-md border-2 text-gray-900 ring-1 ring-inset ring-gray-300 focus:ring-indigo-600"
+          class="input px-2 w-[50%] py-2 rounded-md border-2 text-gray-900 ring-1 ring-inset ring-gray-300 focus:ring-indigo-600"
         />
         <div class="flex gap-4">
             <i class="fa-regular fa-heart fa-2x"></i>
             <i class="fa-regular fa-bell fa-2x"></i>
         </div>
       </form>
-      <div class="header_block1 container1 sm:hidden md:flex justify-between py-5">
+      <div
+        class="header_block1 container1 sm:hidden md:flex justify-between py-5"
+      >
         <div>
           <select name="lang" id="lang" class="rounded-lg p-1">
             <option value="en">EN</option>
@@ -66,81 +68,112 @@
     </header>
 
     <section class="bar">
-        <section class="slide-show">
-        <div class="slider container1 rounded-xl md:w-[80%] md:h-[100%] overflow-hidden">
-            <div class="slides sm:w-[820%] md:w-[300%] h-[100%] flex">
-                <input class="hidden" type="radio" name="radio-btn" id="radio1">
-                <input class="hidden" type="radio" name="radio-btn" id="radio2">
-                <input class="hidden" type="radio" name="radio-btn" id="radio3">
+      <section class="slide-show">
+        <div
+          class="slider container1 rounded-xl md:w-[80%] md:h-[100%] overflow-hidden"
+        >
+          <div class="slides sm:w-[820%] md:w-[300%] h-[100%] flex">
+            <input class="hidden" type="radio" name="radio-btn" id="radio1" />
+            <input class="hidden" type="radio" name="radio-btn" id="radio2" />
+            <input class="hidden" type="radio" name="radio-btn" id="radio3" />
 
-                <div class="slide first bg-[#00776E] md:w-[80%]">
-                    <div class="container1 relative">
-                        <img class="" src="/images/Promotion_Image.png" alt="" />
-                        <div class="sm:w-[309px] sm:top-10 md:w-[573px] absolute md:top-34 left-16">
-                            <h1 class="title-bar sm:text-[42px] sm:leading-1 md:text-[64px] md:font-bold md:leading-[96px] text-white absolute">
-                            Super Flash Sale 50% Off
-                            </h1>
-                        </div>
-                    </div>
+            <div class="slide first bg-[#00776E] md:w-[80%]">
+              <div class="container1 relative">
+                <img class="" src="/images/Promotion_Image.png" alt="" />
+                <div
+                  class="sm:w-[309px] sm:top-10 md:w-[573px] absolute md:top-34 left-16"
+                >
+                  <h1
+                    class="title-bar sm:text-[42px] sm:leading-1 md:text-[64px] md:font-bold md:leading-[96px] text-white absolute"
+                  >
+                    Super Flash Sale 50% Off
+                  </h1>
                 </div>
-                <div class="slide bg-[#26507F] md:w-[80%]">
-                    <div class="container1 relative">
-                        <img class="" src="/images/Promotion_Image.png" alt="" />
-                        <div class="sm:w-[309px] sm:top-10 md:w-[573px] absolute md:top-44 left-16">
-                            <h1 class="title-bar sm:text-[42px] sm:leading-1 md:text-[64px] md:font-bold md:leading-[96px] text-white absolute">
-                            Super Flash Sale 50% Off
-                            </h1>
-                        </div>
-                    </div>
+              </div>
+            </div>
+            <div class="slide bg-[#26507F] md:w-[80%]">
+              <div class="container1 relative">
+                <img class="" src="/images/Promotion_Image.png" alt="" />
+                <div
+                  class="sm:w-[309px] sm:top-10 md:w-[573px] absolute md:top-44 left-16"
+                >
+                  <h1
+                    class="title-bar sm:text-[42px] sm:leading-1 md:text-[64px] md:font-bold md:leading-[96px] text-white absolute"
+                  >
+                    Super Flash Sale 50% Off
+                  </h1>
                 </div>
-                <div class="slide bg-[#CEB096] md:w-[80%]">
-                   <div class="container1 relative">
-                        <img class="" src="/images/Promotion_Image.png" alt="" />
-                        <div class="sm:w-[309px] sm:top-10 md:w-[573px] absolute md:top-44 left-16">
-                            <h1 class="title-bar sm:text-[42px] sm:leading-1 md:text-[64px] md:font-bold md:leading-[96px] text-white absolute">
-                            Super Flash Sale 50% Off
-                            </h1>
-                        </div>
-                    </div>
+              </div>
+            </div>
+            <div class="slide bg-[#CEB096] md:w-[80%]">
+              <div class="container1 relative">
+                <img class="" src="/images/Promotion_Image.png" alt="" />
+                <div
+                  class="sm:w-[309px] sm:top-10 md:w-[573px] absolute md:top-44 left-16"
+                >
+                  <h1
+                    class="title-bar sm:text-[42px] sm:leading-1 md:text-[64px] md:font-bold md:leading-[96px] text-white absolute"
+                  >
+                    Super Flash Sale 50% Off
+                  </h1>
                 </div>
+              </div>
+            </div>
 
-                <div class="navigation-auto">
-                    
-                </div>
-            </div>
-            <div class="navigation-manual">
-                <label for="radio1" class="manual-btn"></label>
-                <label for="radio2" class="manual-btn"></label>
-                <label for="radio3" class="manual-btn"></label>
-            </div>
+            <div class="navigation-auto"></div>
+          </div>
+          <div class="navigation-manual">
+            <label for="radio1" class="manual-btn"></label>
+            <label for="radio2" class="manual-btn"></label>
+            <label for="radio3" class="manual-btn"></label>
+          </div>
         </div>
-        </section>
-      
-      <div class="bar_card container1 w-[80%] text-center flex justify-center absolute top-[75%] left-[10.5%]"
+      </section>
+
+      <div
+        class="bar_card container1 w-[80%] text-center flex justify-center absolute top-[75%] left-[10.5%]"
       ></div>
     </section>
 
-    <section class="products container1 sm:mt-6 xl:mt-[320px] text-center relativ">
+    <section
+      class="products container1 sm:mt-6 xl:mt-[380px] text-center relativ"
+    >
       <form class="">
-        <input
-          type="search"
-          placeholder="Search"
-          class="w-[50%] sm:hidden md:inline-block px-2 py-2 rounded-md border-2 text-gray-900 ring-1 ring-inset ring-gray-300 focus:ring-indigo-600"
+        <input type="search" placeholder="Search"
+          class=" input w-[50%] sm:hidden md:inline-block px-2 py-2 rounded-md border-2 text-gray-900 ring-1 ring-inset ring-gray-300 focus:ring-indigo-600"
         />
       </form>
-      <h1 class="text-4xl font-semibold round sm:hidden md:inline-block">BEST SELLER</h1>
+      <h1 class="text-4xl font-semibold round sm:hidden md:inline-block">
+        BEST SELLER
+      </h1>
       <div class="md:flex md:justify-center md:items-end md:gap-10">
         <div class="flex justify-center gap-16 md:hidden">
-            <img class="w-[80px] p-5 bg-slate-100 rounded-full" src="/images/svg1.svg" alt="svg.icon">
-            <img class="w-[80px] p-5 bg-slate-100 rounded-full" src="/images/svg2.svg" alt="svg.icon">
-            <img class="w-[80px] p-5 bg-slate-100 rounded-full" src="/images/svg3.svg" alt="svg.icon">
-            <img class="w-[80px] p-5 bg-slate-100 rounded-full" src="/images/svg4.svg" alt="svg.icon">
+          <img
+            class="w-[80px] p-5 bg-slate-100 rounded-full"
+            src="/images/svg1.svg"
+            alt="svg.icon"
+          />
+          <img
+            class="w-[80px] p-5 bg-slate-100 rounded-full"
+            src="/images/svg2.svg"
+            alt="svg.icon"
+          />
+          <img
+            class="w-[80px] p-5 bg-slate-100 rounded-full"
+            src="/images/svg3.svg"
+            alt="svg.icon"
+          />
+          <img
+            class="w-[80px] p-5 bg-slate-100 rounded-full"
+            src="/images/svg4.svg"
+            alt="svg.icon"
+          />
         </div>
-        <div class="category flex justify-center gap-10 mt-8">
-
-        </div>
+        <div class="category flex justify-center gap-10 mt-8"></div>
       </div>
-      <div class="rounded-lg product-cards grid sm:grid-cols-2 md:grid-cols-4 gap-4 mt-7"></div>
+      <div
+        class="rounded-lg product-cards grid sm:grid-cols-2 md:grid-cols-4 gap-4 mt-7"
+      ></div>
     </section>
 
     <section class="shipping flex justify-evenly my-[110px]">

@@ -1,6 +1,5 @@
 const baceUrl = "http://localhost:3000/products";
 const baceUrl1 = "http://localhost:3000/card3";
-localStorage.getItem("sum");
 let barCard = document.querySelector(".bar_card");
 let category = document.querySelector(".category");
 let productCards = document.querySelector(".product-cards");
@@ -9,6 +8,7 @@ let cart_number = document.querySelector(".cart_number");
 let btnCard = document.querySelector("#btnCard");
 let sum = 0;
 
+localStorage.getItem("sum");
 let massivData = [];
 
 const getAllCategory = async () => {
@@ -74,7 +74,7 @@ const renderProducts = async (id) => {
     }
   });
   const data = await getSingleCategory(id);
-  console.log(data);
+ 
   massivData = [...data.product];
   productCards.innerHTML = data?.product
     ?.map((item) => {
@@ -141,14 +141,15 @@ category.addEventListener("click", (e) => {
 });
 
 input.addEventListener("keyup", (e) => {
-  productCards.innerHTML = massivData
-    ?.filter((item) =>
-      item.title.toLowerCase().includes(e.target.value.toLowerCase())
-    )
-    ?.map(
-      (
-        item
-      ) => `<div class="product-card bg-white mt-10 w-[90%] rounded-lg text-center">
+  console.log(e.target.value);
+  const searchText = e.target.value.toLowerCase();
+  const filteredData = massivData.filter((item) =>
+    item.title.toLowerCase().includes(searchText)
+  );
+
+  productCards.innerHTML = filteredData
+    .map((item) => {
+      `<div class="product-card bg-white mt-10 w-[90%] rounded-lg text-center">
                 <img class="w-[90%] h-[250px] ml-3 hover:opacity-5 pt-2" src=${
                   item.img
                 }>
@@ -175,8 +176,8 @@ input.addEventListener("keyup", (e) => {
       }"><button class="btnCard  bg-green-300 w-6 rounded"><i class="fa-solid fa-info" style="color: red;"></i></button></a>
                     </div>
                 </div>
-            </div>`
-    )
+            </div>`;
+    })
     .join("");
 });
 
